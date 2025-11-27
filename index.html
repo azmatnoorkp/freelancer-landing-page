@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Freelancing-Landing-Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    >
+</head>
+<body class="font-sans leading-relaxed text-primary-blue bg-white">
+    
+    <nav class="bg-white shadow-md fixed w-full top-0 z-50">
+        <div class="container mx-auto w-[90%] max-w-6xl px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="#" class="flex items-center text-2xl font-bold text-primary-blue">
+                    <i class="fas fa-code mr-2"></i>
+                Freelancing-Landing-Page
+                </a>
+                
+                <ul class="hidden lg:flex space-x-8 list-none">
+                    <li><a href="#home" class="text-gray-dark font-medium hover:text-primary-blue transition duration-300">Home</a></li>
+                    <li><a href="#services" class="text-gray-dark font-medium hover:text-primary-blue transition duration-300">Services</a></li>
+                    <li><a href="#features" class="text-gray-dark font-medium hover:text-primary-blue transition duration-300">Features</a></li>
+                    <li><a href="#testimonials" class="text-gray-dark font-medium hover:text-primary-blue transition duration-300">Testimonials</a></li>
+                    <li><a href="#pricing" class="text-gray-dark font-medium hover:text-primary-blue transition duration-300">Pricing</a></li>
+                    <li><a href="#faq" class="text-gray-dark font-medium hover:text-primary-blue transition duration-300">FAQ</a></li>
+                </ul>
+                
+                <div class="hidden lg:flex space-x-4">
+                    <a href="login.html" class="inline-block bg-primary-blue text-white py-2 px-4 rounded font-medium hover:bg-[#3a5bd9] transition duration-300">Login</a>
+                    <a href="signup.html" class="inline-block bg-primary-blue text-white py-2 px-4 rounded font-medium hover:bg-[#3a5bd9] transition duration-300">Sign Up</a>
+                </div>
+                
+                <div class="lg:hidden text-2xl cursor-pointer">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="mt-[70px]">
+        <div class="container mx-auto w-full max-w-[1600px] h-auto lg:h-[900px] flex flex-col lg:flex-row items-center justify-between p-4 lg:p-16" style="background-image: url(./images/image.png); background-size: cover; background-position: center;">
+            <div class="flex-1 max-w-xl text-center lg:text-left mb-10 lg:mb-0">
+                <h1 id="providing" class="text-[100px] font-light text-gray-dark mb-2 leading-none">Providing Best</h1>
+                <h2 class="text-6xl font-extrabold text-primary-blue mb-5">WEB Services</h2>
+                <p class="text-xl text-gray-medium mb-8 leading-relaxed">We deliver cutting-edge web solutions that drive growth and enhance user experience. Our team of experts is dedicated to transforming your digital presence.</p>
+                <div class="space-x-4">
+                    <a href="#services" class="inline-block bg-primary-blue text-white py-2.5 px-5 rounded-md font-medium hover:bg-[#3a5bd9] transition duration-300">Get Started</a>
+                    <a href="#services" class="inline-block bg-primary-blue text-white py-2.5 px-5 rounded-md font-medium hover:bg-[#3a5bd9] transition duration-300">Explore</a>
+                </div>
+            </div>
+            <div class="flex-1 text-center w-full">
+                <img src="./images/hero-image.png" alt="Hero Image" class="w-full h-auto max-w-lg mx-auto">
+                </div>
+        </div>
+    </header>
+
+    <script src="app.js"></script>
+</body>
+</html>
