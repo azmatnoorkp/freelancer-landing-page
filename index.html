@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+< lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -223,7 +223,106 @@
         </div>
     </section>
 
+     <section class="faq py-24" id="faq">
+        <div class="container mx-auto w-[90%] max-w-6xl px-4">
+            <div class="text-center mb-16">
+                <h3 class="text-4xl text-primary-blue mb-4">FAQs</h3>
+                <p class="text-lg text-gray-medium max-w-3xl mx-auto">Frequently asked questions about our services and pricing</p>
+            </div>
+            <div class="faq-container max-w-3xl mx-auto">
+                
+                <div class="faq-item mb-5 rounded-xl overflow-hidden shadow-md">
+                    <div class="faq-question bg-white p-5 flex justify-between items-center cursor-pointer font-semibold" onclick="toggleFaq(this)">
+                        <span>What is included in your web development service?</span>
+                        <i class="fas fa-chevron-down transform transition duration-300"></i>
+                    </div>
+                    <div class="faq-answer bg-gray-50 max-h-0 overflow-hidden transition-[max-height,padding] duration-300 ease-in-out">
+                        <p class="p-5">Our web development service includes custom design, responsive development, content integration, basic SEO setup, and training on how to manage your website.</p>
+                    </div>
+                </div>
+                <div class="faq-item mb-5 rounded-xl overflow-hidden shadow-md">
+                    <div class="faq-question bg-white p-5 flex justify-between items-center cursor-pointer font-semibold" onclick="toggleFaq(this)">
+                        <span>How long does it take to build a website?</span>
+                        <i class="fas fa-chevron-down transform transition duration-300"></i>
+                    </div>
+                    <div class="faq-answer bg-gray-50 max-h-0 overflow-hidden transition-[max-height,padding] duration-300 ease-in-out">
+                        <p class="p-5">The timeline depends on the complexity of the project. A basic website typically takes 2-4 weeks, while more complex projects can take 6-12 weeks.</p>
+                    </div>
+                </div>
+                <div class="faq-item mb-5 rounded-xl overflow-hidden shadow-md">
+                    <div class="faq-question bg-white p-5 flex justify-between items-center cursor-pointer font-semibold" onclick="toggleFaq(this)">
+                        <span>Do you provide ongoing support after launch?</span>
+                        <i class="fas fa-chevron-down transform transition duration-300"></i>
+                    </div>
+                    <div class="faq-answer bg-gray-50 max-h-0 overflow-hidden transition-[max-height,padding] duration-300 ease-in-out">
+                        <p class="p-5">Yes, we offer various support packages to ensure your website continues to perform optimally. Our support includes updates, security monitoring, and technical assistance.</p>
+                    </div>
+                </div>
+                <div class="faq-item mb-5 rounded-xl overflow-hidden shadow-md">
+                    <div class="faq-question bg-white p-5 flex justify-between items-center cursor-pointer font-semibold" onclick="toggleFaq(this)">
+                        <span>Can I update my website content myself?</span>
+                        <i class="fas fa-chevron-down transform transition duration-300"></i>
+                    </div>
+                    <div class="faq-answer bg-gray-50 max-h-0 overflow-hidden transition-[max-height,padding] duration-300 ease-in-out">
+                        <p class="p-5">Absolutely! We build websites with user-friendly content management systems that allow you to easily update text, images, and other content without technical knowledge.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <footer class="bg-primary-dark text-white pt-20 pb-5">
+        <div class="container mx-auto w-[90%] max-w-6xl px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+                
+                <div class="footer-column">
+                    <h4 class="text-xl mb-6 text-white font-semibold">WEB Services</h4>
+                    <p class="text-gray-light mb-5 leading-relaxed text-sm">Providing cutting-edge web solutions to help businesses thrive in the digital world.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-white hover:bg-primary-blue transition duration-300"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-white hover:bg-primary-blue transition duration-300"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-white hover:bg-primary-blue transition duration-300"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-white hover:bg-primary-blue transition duration-300"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="text-xl mb-6 text-white font-semibold">Quick Links</h4>
+                    <ul class="list-none">
+                        <li class="mb-3"><a href="#home" class="text-gray-light text-sm hover:text-white transition duration-300">Home</a></li>
+                        <li class="mb-3"><a href="#services" class="text-gray-light text-sm hover:text-white transition duration-300">Services</a></li>
+                        <li class="mb-3"><a href="#pricing" class="text-gray-light text-sm hover:text-white transition duration-300">Pricing</a></li>
+                        <li class="mb-3"><a href="#" class="text-gray-light text-sm hover:text-white transition duration-300">About Us</a></li>
+                        <li class="mb-3"><a href="#" class="text-gray-light text-sm hover:text-white transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="text-xl mb-6 text-white font-semibold">Our Services</h4>
+                    <ul class="list-none">
+                        <li class="mb-3"><a href="#" class="text-gray-light text-sm hover:text-white transition duration-300">Web Development</a></li>
+                        <li class="mb-3"><a href="#" class="text-gray-light text-sm hover:text-white transition duration-300">UI/UX Design</a></li>
+                        <li class="mb-3"><a href="#" class="text-gray-light text-sm hover:text-white transition duration-300">E-commerce Solutions</a></li>
+                        <li class="mb-3"><a href="#" class="text-gray-light text-sm hover:text-white transition duration-300">Digital Marketing</a></li>
+                        <li class="mb-3"><a href="#" class="text-gray-light text-sm hover:text-white transition duration-300">SEO Optimization</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="text-xl mb-6 text-white font-semibold">Contact Us</h4>
+                    <ul class="list-none space-y-3">
+                        <li class="text-gray-light text-sm flex items-center"><i class="fas fa-map-marker-alt mr-2 w-5"></i> 123 Web Street, Tech City</li>
+                        <li class="text-gray-light text-sm flex items-center"><i class="fas fa-phone mr-2 w-5"></i> +1 (555) 123-4567</li>
+                        <li class="text-gray-light text-sm flex items-center"><i class="fas fa-envelope mr-2 w-5"></i> info@webservices.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom text-center pt-8 border-t border-gray-800 text-gray-light text-sm">
+                <p>&copy; Developed by Adil HBS.</p>
+            </div>
+        </div>
+    </footer>
     <script src="app.js"></script>
 </body>
 </html>
